@@ -5,5 +5,5 @@ A simple utility jar to convert Anvil-Worlds (the default minecraft world format
 ## Usage
 
 - Download the latest release from [releases](https://github.com/JustAlittleWolf/PolarWorldImporter/releases/latest)
-- Run `java -jar PolarWorldImporter-VERSION.jar <world directory> <radius: Int = 20>` to convert the world
+- Run `java -jar PolarWorldImporter-VERSION.jar <world directory> <radius: Int = 20>` to convert the world (by default the radius will be 20 chunks manhattan distance from `(0, 0)`)
 - The resulting polar world file will appear in the directory where the command is run
