@@ -1,20 +1,20 @@
 plugins {
-    kotlin("jvm") version "2.0.20"
-    id("com.gradleup.shadow") version "8.3.1"
+    kotlin("jvm") version "2.2.0"
+    id("com.gradleup.shadow") version "9.0.0-rc1"
 }
 
 group = "me.wolfii"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("net.minestom:minestom-snapshots:9fbff439e7")
-    implementation("org.slf4j:slf4j-nop:2.0.16")
+    implementation("net.minestom:minestom:2025.07.11-1.21.7")
+    implementation("org.slf4j:slf4j-nop:2.0.17")
 
-    implementation("dev.hollowcube:polar:1.11.2")
+    implementation("dev.hollowcube:polar:1.14.6")
 }
 
 kotlin {
